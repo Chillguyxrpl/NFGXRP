@@ -1,1 +1,26 @@
+# ==============================================================================
+# XRPL Token Verification File
+# Place this at: https://yourdomain.com/.well-known/xrp-ledger.toml
+# ==============================================================================
 
+[[ACCOUNTS]]
+address = "rNFGBqAKm2xFMsrTDHHJv5Hxq3gfYYWxH1"
+description = "Official Issuing Account"
+
+[[TOKENS]]
+issuer = "rNFGBqAKm2xFMsrTDHHJv5Hxq3gfYYWxH1"
+currency = "NFG"
+symbol = "NFG"
+display_decimals = 6
+description = "A community driven project focused on making Memes fun again."
+
+[[currencies]]
+code = "NFG"
+issuer = "rNFGBqAKm2xFMsrTDHHJv5Hxq3gfYYWxH1"
+display_name = "No Fuqs Given"
+icon = "https://i.ibb.co/gZyDR9wW/vanta.png"
+network = "mainnet"
+
+[[PRINCIPALS]]
+name = "Project Team"
+description = "Core Development & Community Management"
