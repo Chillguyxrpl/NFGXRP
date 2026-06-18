@@ -3,14 +3,20 @@
 # Place this at: https://chillguyxrpl.github.io/NFG/.well-known/xrp-ledger.toml
 # ==============================================================================
 
-[METADATA]
-modified = 2026-06-18T00:00:00.000Z
-spec_version = "1.0.0"
+[[ACCOUNTS]]
+address = "rNFGBqAKm2xFMsrTDHHJv5Hxq3gfYYWxH1"
+description = "Official Issuing Account"
+
+[[TOKENS]]
+issuer = "rNFGBqAKm2xFMsrTDHHJv5Hxq3gfYYWxH1"
+currency = "NFG"
+symbol = "NFG"
+display_decimals = 6
+description = "A community driven project focused on making Memes fun again."
 
 [[currencies]]
 code = "NFG"
 issuer = "rNFGBqAKm2xFMsrTDHHJv5Hxq3gfYYWxH1"
 display_name = "No Fuqs Given"
-description = "A community driven project focused on making Memes fun again."
-icon = "https://chillguyxrpl.github.io/NFG/vanta.png"
+icon = "https://chillguyxrpl.github.io/NFGXRP/vanta.png"
 network = "mainnet"
