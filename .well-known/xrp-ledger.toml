@@ -18,9 +18,10 @@ description = "A community driven project focused on making Memes fun again."
 code = "NFG"
 issuer = "rNFGBqAKm2xFMsrTDHHJv5Hxq3gfYYWxH1"
 display_name = "No Fuqs Given"
-icon = "https://i.ibb.co/gZyDR9wW/vanta.png"
+icon = "https://chillguyxrpl.github.io/NFGXRP/vanta.png"
 network = "mainnet"
 
 [[PRINCIPALS]]
 name = "Project Team"
 description = "Core Development & Community Management"
+
