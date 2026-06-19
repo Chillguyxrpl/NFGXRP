@@ -14,22 +14,17 @@ description = "Official Issuing Account"
 address = "rNFGobbs9MF9jmoZDPHDn6fv2SrDq3QTxm"
 description = "Official Operational Hot Wallet / Liquidity Provision"
 
-[[TOKENS]]
-issuer = "rNFGBqAKm2xFMsrTDHHJv5Hxq3gfYYWxH1"
-currency = "NFG"
-symbol = "NFG"
-display_decimals = 6
-description = "A community driven project focused on making Memes fun again."
-
 [[currencies]]
 code = "NFG"
-issuer = "rNFGBqAKm2xFMsrTDHHJv5Hxq3gfYYWxH1"
+issuer = "rNFGBqAKm2xFMsrTDHHJv5Hxq3gfyYWxH1"
 display_name = "No Fuqs Given"
 icon = "https://nfgxrp.com/vanta.png"
 network = "mainnet"
+display_decimals = 6
+description = "A community driven project focused on making Memes fun again."
 
 [[PRINCIPALS]]
-name = "Project Team"
+name = "Java Chillin"
 description = "Core Development & Community Management"
 
 [ORGANIZATION]
