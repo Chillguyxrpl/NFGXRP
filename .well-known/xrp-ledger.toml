@@ -1,50 +1,38 @@
 # ==============================================================================
-# XRPL Token Verification File - NFG Token
-# Place this at: https://chillguyxrpl.github.io/NFG/.well-known/xrp-ledger.toml
+#  XRPL PROJECT VALIDATION FILE (xrp-ledger.toml)
+#  Reference Standard: https://xrpl.org/xrp-ledger-toml.html
 # ==============================================================================
 
-# --- METADATA SEED ---
-# Helps indexers verify when your configuration was last updated.
 [METADATA]
 modified_at = 2026-06-19T00:00:00Z
 
-# --- ACCOUNTS ---
-# Lists all official operational addresses affiliated with your project.
 [[ACCOUNTS]]
 address = "rNFGBqAKm2xFMsrTDHHJv5Hxq3gfYYWxH1"
-description = "Official Cold Wallet / Token Issuing Account"
+description = "Official Issuing Account"
 
 [[ACCOUNTS]]
 address = "rNFGobbs9MF9jmoZDPHDn6fv2SrDq3QTxm"
 description = "Official Operational Hot Wallet / Liquidity Provision"
 
-# --- TOKENS & CURRENCIES ---
-# The dual-mapping layer required for cross-platform ecosystem indexing.
 [[TOKENS]]
 issuer = "rNFGBqAKm2xFMsrTDHHJv5Hxq3gfYYWxH1"
 currency = "NFG"
 symbol = "NFG"
 display_decimals = 6
-description = "A community-driven project focused on making Memes fun again."
+description = "A community driven project focused on making Memes fun again."
 
 [[currencies]]
 code = "NFG"
 issuer = "rNFGBqAKm2xFMsrTDHHJv5Hxq3gfYYWxH1"
 display_name = "No Fuqs Given"
-icon = "https://chillguyxrpl.github.io/NFGXRP/vanta.png"
+icon = "https://nfgxrp.com/vanta.png"
 network = "mainnet"
 
-# --- PRINCIPALS & TEAM ---
-# Demonstrates accountability by naming the founding core or project entities.
 [[PRINCIPALS]]
-name = "Java"
+name = "Project Team"
 description = "Core Development & Community Management"
 
-# --- PROJECT SOCIALS & VERIFICATION ---
-# Feeds into explorers so users can easily find your official channels safely.
 [ORGANIZATION]
 name = "No Fuqs Given Project"
-url = "https://chillguyxrpl.github.io/NFGXRP"
+url = "https://nfgxrp.com"
 description = "Building a community-focused ecosystem on the XRP Ledger."
-twitter = "https://x.com/NFGxrp589"
-telegram = "https://t.me/+qKxXbAuVLR82NTcx"
