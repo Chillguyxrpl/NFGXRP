@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFG - No Fuqs Given | XRPL Meme Coin</title>
+    <meta name="description" content="Ungovernable. Unfiltered. The official NFG (No Fuqs Given) meme coin on XRPL. No utility, no roadmap, just vibes and ravens.">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="NFG - No Fuqs Given | XRPL Meme Coin">
+    <meta property="og:description" content="Ungovernable. Unfiltered. The official NFG meme coin on XRPL. Zero roadmaps, zero promises, 100% ravens.">
+    <meta property="og:image" content="./assets/nfg-raven.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="NFG - No Fuqs Given | XRPL Meme Coin">
+    <meta property="twitter:description" content="Ungovernable. Unfiltered. The official NFG meme coin on XRPL. Zero roadmaps, zero promises, 100% ravens.">
+    <meta property="twitter:image" content="./assets/nfg-raven.png">
+
+    <!-- Fonts & Favicon -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css?v=5">
+</head>
+<body class="cyber-scanline">
+
+    <!-- Glitch Overlay Grid -->
+    <div class="hud-grid-overlay"></div>
+
+    <!-- Header Navigation -->
+    <header class="main-header">
+        <div class="logo-container">
+            <span class="logo-text glitch-text" data-text="NFG">NFG</span>
+        </div>
+        <nav class="nav-links">
+            <a href="#manifesto" class="nav-link">Manifesto</a>
+            <a href="#fuqs" class="nav-link">Give a Fuq</a>
+            <a href="#roaster" class="nav-link">Roaster</a>
+            <a href="#tokenomics" class="nav-link">The Specs</a>
+            <a href="#nfts" class="nav-link">NFTs</a>
+        </nav>
+        <div class="header-cta">
+            <a href="https://xmagnetic.org/tokens/NFG+rNFGBqAKm2xFMsrTDHHJv5Hxq3gfYYWxH1?network=mainnet" target="_blank" class="btn btn-secondary btn-sm glow-pink">Buy NFG</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+        <!-- Background chains & noise -->
+        <div class="chain-decor left-chain"></div>
+        <div class="chain-decor right-chain"></div>
+
+        <div class="hero-content">
+            <div class="raven-wrapper">
+                <div class="neon-glow-behind"></div>
+                <!-- Cartoon Raven Mascot Image -->
+                <img src="./assets/nfg-raven.png" alt="NFG Rebel Raven" class="raven-img" id="raven-mascot">
+            </div>
+
+            <h1 class="hero-title glitch-text" data-text="NO FUQS GIVEN">NO FUQS GIVEN</h1>
+            <p class="hero-subtitle">XRPL: UNGOVERNABLE. UNFILTERED.</p>
+
+            <div class="hero-actions">
+                <a href="#fuqs" class="btn btn-primary btn-lg glow-pink">Give a Fuq</a>
+                <a href="#roaster" class="btn btn-outline btn-lg">Get Roasted</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Glitchy Mock Ticker -->
+    <div class="ticker-wrapper">
+        <div class="ticker-scroll" id="price-ticker">
+            <!-- Populated via Javascript dynamically -->
+            <span>NFG $0.000589 (+589.00%) 🔥</span>
+            <span>NO ROADMAPS 🚫</span>
+            <span>RETAIL APING IN 🦍</span>
+            <span>WARNING: SUITS DETECTED - ENGAGING COUNTERMEASURES 🚨</span>
+            <span>UNGOVERNABLE LEDGER STATE ⚡</span>
+            <span>ZERO UTILITY 💀</span>
+        </div>
+    </div>
+
+    <!-- Manifesto Section -->
+    <section class="manifesto-section" id="manifesto">
+        <div class="section-container">
+            <div class="gritty-card">
+                <h2 class="section-title text-pink">THE MANIFESTO</h2>
+                <div class="manifesto-body">
+                    <p class="lead-text">They promised you utility. They promised you web3 AI-metaverse integration. They promised you Q4 partnerships. You got rugged. We saw. We laughed.</p>
+                    <p><strong>NFG</strong> is not here to hold your hand. We do not have a 12-stage roadmap. We do not have a corporate board of advisors wearing fleece vests. We have a rebel raven flipping double birds and a ledger that cannot be shut down.</p>
+                    <p>We are the ungovernable. The unfiltered. The ones who buy because they want to, and hold because they simply don't give a fuq.</p>
+                    <p class="stamp-text">NO ROADS. NO MAPS. JUST VIBES.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive "Give a Fuq" Counter -->
+    <section class="game-section" id="fuqs">
+        <div class="section-container">
+            <h2 class="section-title text-cyan">THE FUQ COUNTER</h2>
+            <p class="section-subtitle">Got some fuqs to give? Try clicking the button. See what happens.</p>
+            
+            <div class="game-console">
+                <div class="console-header">
+                    <span class="dot red-dot"></span>
+                    <span class="dot yellow-dot"></span>
+                    <span class="dot green-dot"></span>
+                    <span class="console-title">FUQ-O-METER v1.0</span>
+                </div>
+                
+                <div class="console-body">
+                    <div class="counter-display">
+                        <span class="counter-label">FUQS GIVEN</span>
+                        <div class="counter-digits" id="fuqs-counter">0</div>
+                    </div>
+                    
+                    <button class="btn-give-fuq" id="give-fuq-btn">
+                        <span class="btn-text">GIVE A FUQ</span>
+                        <span class="btn-glitch-layer"></span>
+                    </button>
+                    
+                    <div class="console-terminal">
+                        <div class="terminal-line"><span class="prompt">></span> <span class="term-text text-green">System Ready. Fuq supply: 0.</span></div>
+                        <div id="terminal-feed"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Roaster -->
+    <section class="roaster-section" id="roaster">
+        <div class="section-container">
+            <h2 class="section-title text-pink">THE RAVEN ROASTER</h2>
+            <p class="section-subtitle">Enter your wallet, name, or favorite utility coin. The NFG Raven does not hold back.</p>
+            
+            <div class="roaster-card">
+                <div class="roaster-form">
+                    <input type="text" id="roast-input" placeholder="e.g. BTC, SolDev, MyLifeSavings" maxlength="30" class="neon-input">
+                    <button class="btn btn-primary glow-pink" id="roast-btn">Roast It</button>
+                </div>
+                
+                <div class="roast-output-box" id="roast-box">
+                    <div class="avatar-block">
+                        <img src="./assets/nfg-raven.png" alt="Raven Avatar" class="roast-avatar">
+                        <span class="avatar-label">NFG Raven</span>
+                    </div>
+                    <div class="roast-bubble">
+                        <p class="roast-text" id="roast-content">"What are you waiting for? Input something so I can tear it to shreds. Or don't, I really don't give a fuq."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tokenomics Specs -->
+    <section class="tokenomics-section" id="tokenomics">
+        <div class="section-container">
+            <h2 class="section-title text-cyan">THE SPECS</h2>
+            <div class="specs-grid">
+                <div class="spec-card">
+                    <h3 class="spec-value">90%</h3>
+                    <p class="spec-label">COMMUNITY OWNED</p>
+                    <p class="spec-desc">90% community allocation (10% dev balance). 50% of supply is escrowed on-chain for community distribution.</p>
+                </div>
+                <div class="spec-card">
+                    <h3 class="spec-value">1%</h3>
+                    <p class="spec-label">TAX / FEES</p>
+                    <p class="spec-desc">1% transaction tax. Cause you gon pay to play in our charts.</p>
+                </div>
+                <div class="spec-card">
+                    <h3 class="spec-value">589</h3>
+                    <p class="spec-label">TOTAL SUPPLY</p>
+                    <p class="spec-desc">The ultimate XRP ledger community number. Ungovernable quantity.</p>
+                </div>
+            </div>
+
+            <!-- Contract Address Copy Block -->
+            <div class="contract-copy-block">
+                <p class="contract-header">XRPL CONTRACT ADDRESS</p>
+                <div class="copy-input-group">
+                    <span class="contract-address" id="contract-addr">rNFGBqAKm2xFMsrTDHHJv5Hxq3gfYYWxH1</span>
+                    <button class="btn-copy" id="copy-btn">COPY ADDRESS</button>
+                </div>
+                <p class="copy-feedback-msg" id="copy-feedback"></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- NFT Section -->
+    <section class="nft-section" id="nfts">
+        <div class="section-container">
+            <h2 class="section-title text-pink">NFTS</h2>
+            <p class="section-subtitle">Collect the official Rebel Ravens on the XRPL ledger.</p>
+            
+            <div class="nft-showcase">
+                <div class="nft-card">
+                    <div class="nft-image-wrapper">
+                        <img src="./assets/nfg-nft-preview.jpg" alt="NFG Foundation NFTs Preview" class="nft-preview-img">
+                    </div>
+                    <div class="nft-details">
+                        <h3 class="nft-card-title">NFG Foundation NFTs</h3>
+                        <p class="nft-card-desc">The genesis collection of digital ravens. Handcrafted pixel art and collectibles built for the ungovernable community.</p>
+                        <a href="https://ladycafe.io/collection/nfg-1-series-mp5wji0k" target="_blank" class="btn btn-primary glow-cyan">View on Lady Cafe</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <span class="text-pink font-marker">NFG</span>
+                <p class="footer-disclaimer">DISCLAIMER: NFG is a 100% joke meme coin. It has absolutely zero utility, zero financial backing, and zero expectations. Buying NFG is purely for fun, community participation, and raven vibes. If you lose money, don't say we didn't warn you. We literally give no fuqs.</p>
+            </div>
+            <div class="footer-links">
+                <a href="https://x.com/NFGxrp589" target="_blank" class="footer-link">Twitter / X</a>
+                <a href="https://t.me/+qKxXbAuVLR82NTcx" target="_blank" class="footer-link">Telegram</a>
+
+                <a href="https://bithomp.com/explorer/rNFGBqAKm2xFMsrTDHHJv5Hxq3gfYYWxH1" target="_blank" class="footer-link">Explorer</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2026 NFG Meme Project. Ungovernable since block one.
+        </div>
+    </footer>
+
+    <script src="app.js?v=7"></script>
+</body>
+</html>
